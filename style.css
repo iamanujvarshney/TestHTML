@@ -1,0 +1,343 @@
+header {
+    background: #323a45;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 5px;
+    line-height: 50px;
+    color: white;
+}
+
+nav ul li a:hover {
+    background: #2a80b9;
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    color: white;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.responsive-btn span {
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #ccc;
+    margin-bottom: 3px;
+}
+
+.responsive-btn button {
+    background: transparent;
+    border: 0;
+    float: right;
+    margin-top: 15px;
+}
+
+.responsive-btn {
+    display: none;
+}
+
+.close-btn {
+    display: none;
+    background: #323a45;
+    border: 1px solid #a7a4a4;
+    padding: 10px 15px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.banner-section{
+    background: #2a80b9;
+    height:300px; 
+}
+.footer1
+{
+   background: #2a80b9;
+   padding:30px;  
+}
+.footer2
+{
+     background: #323a45;
+    padding:30px;
+}
+.banner-img {
+    background-image: url(../images/Flati.png);
+    background-repeat: no-repeat;
+    height:100%;
+    background-position-y: 132%
+
+}
+.banner-text
+{
+    text-align: center;
+  padding-top: 41px;
+}
+h1 , h4
+{
+    color:white;
+}
+.banner-btn
+{
+ background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    padding: 8px;
+}
+.banner-btn:hover
+{
+    background: #323a45;
+}
+.section-text
+{
+    background: #e9e6e1;
+    padding: 15px;
+}
+.para
+{
+    color:#90979f;
+    
+}
+.para-pgm-text
+{
+    background-color: #2b9bbe ;
+    padding: 2px;
+    color: white;
+}
+.para-com-text
+{
+    color:#2a80b9;
+    
+}
+.para-spy-text
+{
+    color:black;
+}
+.banner-text
+{
+    text-align: center;
+    padding-top: 41px;
+}
+h1 , h4
+{
+    color:white;
+}
+.banner-btn
+{
+   background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    padding: 8px;
+}
+.section-card
+{
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.para-card
+{
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 16px;
+}
+.para-color
+{
+    color:#2b9bbe;
+}
+.block
+{
+    background: #e9e6e1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.icon-class {
+    background:white;
+    border-radius: 50%;
+    color: #2473a6;
+    margin:auto;
+    padding: 7px;
+    width: 40px;
+    height:40px;
+    
+}
+
+.icon class i {
+    top: 25px;
+    left: 15px;
+  
+}
+.section-card2
+{
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.section-card2-para1
+{
+    color:#7a7a7a;
+}
+.section-card2-para2
+{
+    color:#7a7a7a;
+    font-size: 14px;
+}
+.section-card2-para3
+{
+    color:#7a7a7a;
+    font-size: 12px;
+}
+.btn-custom
+{
+    padding:10px;
+}
+.btn-custom:hover
+{
+    background: #323a45;
+}
+
+.section-card2-block
+{
+    margin: 10px;
+    padding: 0px;
+
+}
+.section-card2-block-para
+{
+    margin-top: -18px;
+    background: #34495e;
+    padding: 20px;
+}
+.section-card2-block-para p
+{
+ font-size: 12px;
+    text-align: center;
+    opacity: 0.6;
+}
+.block1 {
+    background-image: url("Flati%20(1).png");
+    width: 100%;
+    height: 122px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block2 {
+    background-image: url("Flati%20(2).png");
+    width: 100%;
+    height: 122px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block3 {
+    background-image: url("Flati%20(3).png");
+    width: 100%;
+    height: 122px;
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer-icon
+{
+    text-align: center;
+    color:lightblue;
+        opacity: 0.2;
+   
+}
+.footer-icon2
+{
+     margin: 10px;
+}
+
+.footer1-para
+{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.6;
+
+}
+.footer2-para
+{
+    color:white;
+    text-align: center;
+    font-size: 14px;
+      opacity: 0.4;
+
+}
+.footer1-para
+{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.6;
+
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .navbaar {
+        position: fixed;
+        top: 0;
+        background: #323a45;
+        right: -240px;
+        width: 240px;
+        height: 100%;
+        z-index: 1000;
+        transition: right 1s;
+        padding-left:0px;
+
+    }
+
+    .responsive-btn {
+        display: block;
+    }
+
+    nav ul li {
+        float: none;
+        padding-left: 0px;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    .close-btn {
+        display: block;
+    }
+     .close-btn:hover {
+         background: #2a80b9;
+    }
+    .banner-section{
+    background: #2a80b9;
+    height:400px; 
+}
+    .recent-para
+    {  
+        padding-left: 50px;
+          
+    }
+    .section-card2
+    {
+        padding-top:0px;
+    }
+}
