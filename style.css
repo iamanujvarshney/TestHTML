@@ -80,7 +80,7 @@ p {
     padding:30px;
 }
 .banner-img {
-    background-image: url(../images/Flati.png);
+    background-image: url(Flati.png);
     background-repeat: no-repeat;
     height:100%;
     background-position-y: 132%
@@ -232,7 +232,7 @@ h1 , h4
     opacity: 0.6;
 }
 .block1 {
-    background-image: url("Flati%20(1).png");
+    background-image: url("Flati1.png");
     width: 100%;
     height: 122px;
     
@@ -240,7 +240,7 @@ h1 , h4
     background-size: 100%;
 }
 .block2 {
-    background-image: url("Flati%20(2).png");
+    background-image: url("Flati2.png");
     width: 100%;
     height: 122px;
     
@@ -248,7 +248,7 @@ h1 , h4
     background-size: 100%;
 }
 .block3 {
-    background-image: url("Flati%20(3).png");
+    background-image: url("Flati3.png");
     width: 100%;
     height: 122px;
     
